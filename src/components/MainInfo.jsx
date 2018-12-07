@@ -1,9 +1,11 @@
-import React from 'react'
+import React from "react";
+import MainBlock from './MainBlock';
+import ReviewsBlock from './ReviewsBlock';
 
-export const MainInfo = () => 
-  <div>
-    <h2>Barcelona Central Garden</h2>
-    <p> Eixample, Barcelona – Show on map (650 m from center ) – Subway Access</p>
+export const MainInfo = () =>
+  <div className="row">
+    <MainBlock />
+    <ReviewsBlock />
   </div>
 
 export default MainInfo;

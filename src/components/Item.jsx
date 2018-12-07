@@ -1,14 +1,12 @@
 import React, { Component } from 'react'
-import MainInfo from '../components/MainInfo'
+import './Item.css';
+import ItemContent from './ItemContent'
+import ItemThumbnail from './ItemThumbnail';
 
-export default class Item extends Component {
-  render() {
-    return (
-      <div className='outerDiv'>
-        <div className='item'>
-          <MainInfo />
-        </div>
-      </div>
-    )
-  }
-}
+export const Item = () =>
+  <div className='row item'>
+    <ItemThumbnail />
+    <ItemContent />
+  </div>
+
+export default Item;
