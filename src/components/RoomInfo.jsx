@@ -1,24 +1,10 @@
 import React from 'react'
 import './RoomInfo.css'
 import { IconContext } from "react-icons";
-import { FaLaugh } from "react-icons/fa";
 import { FaUser } from "react-icons/fa";
 
 export const RoomInfo = () =>
-  <div className="col-sm-9 room-info-content">
-    <div>
-      <p className="hotel-expectation">
-        <IconContext.Provider value={
-          { 
-            size: "1.5em",
-            className: 'hotel-expectation-icon'
-          }
-        }>
-          <FaLaugh />
-        </IconContext.Provider>
-        95% of guest reviewers had their expectations of this property met or exceeded
-      </p>
-    </div>
+  <div className="col-sm-9">
     <p className="room-name">
       Bunk Bed Room and Shared Bathroom
       <span className="room-name-icons">

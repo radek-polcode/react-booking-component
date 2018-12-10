@@ -1,4 +1,5 @@
 .col-item-content {
   padding-left: 0;
-  padding-right: 0;
+  flex: 0 0 71.666667%;
+  max-width: 71.666667%;
 }
