@@ -1,5 +1,5 @@
 import React from 'react'
-import './Reviews.css';
+import './ReviewsBlock.css';
 
 export const ReviewsBlock = () =>
   <div className="col-sm-3 reviews">
@@ -20,7 +20,7 @@ export const ReviewsBlock = () =>
       <a href="#">Location 9.5</a>
     </div>
     <div>
-      <div className="guest-favorite clear-float">Guest Favourite</div>
+      <div className="guest-favorite">Guest Favourite</div>
     </div>
   </div>
 
