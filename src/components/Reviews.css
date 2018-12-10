@@ -1,0 +1,50 @@
+.guest-favorite {
+  font-size: 14px;
+  font-weight: bold;
+  line-height: 1.9;
+}
+
+.reviews {
+  padding-right: 0;
+}
+
+.review-score-content {
+  margin-top: 4px;
+}
+
+.review-score-title {
+  color: #003580;
+  float: left;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 1;
+}
+
+.review-score-text {
+  color: #707070;
+  float: left;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.review-score-badge {
+  align-items: center;
+  background: #003580;
+  border-radius: 6px 6px 6px 0;
+  color: #fff;
+  display: flex;
+  font-size: 16px;
+  font-weight: 500;
+  height: 32px;
+  margin: 0;
+  position: relative;
+  text-align: center;
+  -webkit-align-items: center;
+  -webkit-justify-content: center;
+  width: 32px;
+}
+
+.review-score-secondary {
+  font-size: 14px;
+  float: left;
+}

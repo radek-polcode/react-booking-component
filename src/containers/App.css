@@ -24,3 +24,7 @@ a:hover {
 .tool-tip {
   font-size: 12px;
 }
+
+.clear-float {
+  clear: both
+}
