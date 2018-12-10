@@ -4,7 +4,7 @@ import './ReviewsBlock.css';
 export const ReviewsBlock = () =>
   <div className="col-sm-3 reviews">
     <div className="review-score-content">
-      <div>
+      <div className="review-score-main">
         <div className="review-score-title">
           Wonderful
         </div>

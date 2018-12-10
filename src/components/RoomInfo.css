@@ -8,6 +8,10 @@
   margin-right: 5px;
 }
 
+.room-info-content {
+  padding-right: 0;
+}
+
 .room-left {
   color: red;
   font-size: 12px;

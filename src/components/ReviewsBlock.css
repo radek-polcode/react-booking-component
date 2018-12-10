@@ -10,12 +10,18 @@
 }
 
 .review-score-content {
+  display: flex;
+  float: right;
   margin-top: 4px;
+}
+
+.review-score-main {
+  display: flex;
+  flex-direction: column;
 }
 
 .review-score-title {
   color: #003580;
-  float: left;
   font-size: 16px;
   font-weight: 500;
   line-height: 1;
@@ -23,7 +29,6 @@
 
 .review-score-text {
   color: #707070;
-  float: left;
   font-size: 12px;
   font-weight: 500;
 }
@@ -37,7 +42,7 @@
   font-size: 16px;
   font-weight: 500;
   height: 32px;
-  margin: 0;
+  margin: 0 0 0 5px;
   position: relative;
   text-align: center;
   -webkit-align-items: center;

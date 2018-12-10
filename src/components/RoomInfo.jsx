@@ -5,7 +5,7 @@ import { FaLaugh } from "react-icons/fa";
 import { FaUser } from "react-icons/fa";
 
 export const RoomInfo = () =>
-  <div className="col-sm-9">
+  <div className="col-sm-9 room-info-content">
     <div>
       <p className="hotel-expectation">
         <IconContext.Provider value={
