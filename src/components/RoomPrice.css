@@ -1,0 +1,21 @@
+.room-price {
+  color: #48b21b;
+  font-size: 18px;
+  font-weight: 600;
+  float: right;
+}
+
+.room-price-for-x-nights{
+  background-color: #537bb4;
+  border-radius: 4px;
+  color: white;
+  font-size: 12px;
+  margin-bottom: 3px;
+  padding: 4px;
+  text-align: center;
+}
+
+.room-price-taxes-and-fees {
+  font-size: 12px;
+  color: #707070;
+}
