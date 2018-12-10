@@ -7,3 +7,22 @@
 .hotel-expectation-icon {
   margin-right: 5px;
 }
+
+.room-left {
+  color: red;
+  font-size: 12px;
+  font-weight: 800;
+}
+
+.room-name {
+  font-size: 12px;
+  margin-bottom: 3px;
+}
+
+.room-name-icons {
+  margin-left: 2px;
+}
+
+.room-name-icons-user {
+  margin-right: 2px;
+}
