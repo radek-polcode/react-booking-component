@@ -1,0 +1,17 @@
+.hotel-name {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.location-info {
+  text-decoration: underline;
+}
+
+.location-info:hover {
+  color: #07c;
+  text-decoration: underline;
+}
+
+.additional-location-info {
+
+}

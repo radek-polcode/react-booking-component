@@ -1,8 +1,21 @@
-
-
 .container {
   display: flex;
   align-items: center;
   justify-content: center;
   height: 100vh;
+}
+
+a {
+  color: #07c;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #febb02;
+  text-decoration: none;
+}
+
+.tool-tip {
+  font-size: 12px;
 }
