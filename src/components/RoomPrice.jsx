@@ -4,7 +4,7 @@ import { IconContext } from "react-icons";
 import { FaAngleRight } from 'react-icons/fa'
 
 export const RoomPrice = () => 
-  <div className="col-sm-3 room-price-content">
+  <div className="col-4 room-price-content">
     <p className="room-price-for-x-nights">Price for 2 nights</p>
     <p className="room-price">608 zł</p>
     <p className="room-price-taxes-and-fees clear-float">+12,33 zł taxes and charges</p>

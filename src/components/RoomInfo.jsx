@@ -4,7 +4,7 @@ import { IconContext } from "react-icons";
 import { FaUser } from "react-icons/fa";
 
 export const RoomInfo = () =>
-  <div className="col-sm-9">
+  <div className="col-8 room-info">
     <p className="room-name">
       Bunk Bed Room and Shared Bathroom
       <span className="room-name-icons">

@@ -2,7 +2,7 @@ import React from 'react'
 import './ReviewsBlock.css';
 
 export const ReviewsBlock = () =>
-  <div className="col-sm-3 reviews">
+  <div className="col-3 reviews">
     <div className="review-score-content">
       <div className="review-score-main">
         <div className="review-score-title">

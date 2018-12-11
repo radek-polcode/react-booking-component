@@ -1,5 +1,4 @@
 import React from 'react';
-import RoomExpectation from './RoomExpectation';
 import RoomInfo from './RoomInfo';
 import RoomPrice from './RoomPrice';
 

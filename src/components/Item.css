@@ -1,7 +1,12 @@
 .item {
-  background-color: #e9f0fa;
+  border: 1px solid rgb(198, 198, 198);
   border-radius: 3px;
   height: 300px;
   padding: 16px;
   width: 812px;
+}
+
+.item:hover {
+  background-color: #e9f0fa;
+  border: 1px solid #c6c6c6;
 }
