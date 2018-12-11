@@ -10,3 +10,9 @@
   background-color: #e9f0fa;
   border: 1px solid #c6c6c6;
 }
+
+.clicked {
+  background-color: #e9f0fa;
+  box-shadow: 0 0 5px rgba(81, 203, 238, 1);
+  border: 1px solid rgba(81, 203, 238, 1);
+}
