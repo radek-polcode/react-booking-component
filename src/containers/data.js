@@ -15,6 +15,7 @@ const jsonData = {
       "reviews": {
         "title": "Wonderful",
         "number_of_reviews": "542",
+        "overall_score": "9.2",
         "location_score": "9.5",
         "guest_favourite": "true"
       },
@@ -45,8 +46,9 @@ const jsonData = {
       "reviews": {
         "title": "Wonderful",
         "number_of_reviews": "55",
+        "overall_score": "9.5",
         "location_score": "9.8",
-        "guest_favourite": "true"
+        "guest_favourite": "false"
       },
       "price": {
         "number_of_nights": "2",
