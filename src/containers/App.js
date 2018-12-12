@@ -8,14 +8,18 @@ class App extends Component {
   constructor(props) {
     super();
     this.state = {
-      json_data: JSON.parse(json_data)
+      hotels: json_data
     }
   }
 
   render() {
     return (
       <div className="container">
-        <Item />
+        {Object.keys(this.state.hotels.data).map((key) =>{
+          return (
+            <Item hotel={this.state.hotels.data[key]}/>
+          )
+        })};
       </div>
     );
   }

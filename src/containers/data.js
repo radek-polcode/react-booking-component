@@ -22,7 +22,7 @@ const jsonData = {
       "taxes_and_charges": "12,33",
       "currency": "zł"
     },
-    "thumbnail":"../images/thumb.jpg"
+    "thumbnail":"/images/thumb.jpg"
     },
     "item_2": {
       "name": "Apartament Nadwiślańska",
@@ -45,7 +45,8 @@ const jsonData = {
         "price": "632",
         "taxes_and_charges": "60",
         "currency": "zł"
-      }
+      },
+      "thumbnail":"/images/thumb2.webp"
     }
   }
 }

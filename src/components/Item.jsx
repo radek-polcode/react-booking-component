@@ -4,12 +4,14 @@ import ItemContent from './ItemContent'
 import ItemThumbnail from './ItemThumbnail';
 
 export default class Item extends Component {
-  constructor() {
-    super();
+  constructor(props) {
+    super(props);
     // this.addClickedClass = this.addClickedClass;
     this.state = {
-      clicked: false
+      clicked: false,
+      hotel: this.props.hotel,
     }
+    console.log(this.state.hotel.thumbnail)
   }
 
   handleOnClick = () => {
@@ -24,8 +26,8 @@ export default class Item extends Component {
     return (
       <div className={this.state.clicked ? classNames + ' clicked' : classNames }
            onClick={this.handleOnClick}>
-        <ItemThumbnail />
-        <ItemContent />
+        <ItemThumbnail thumbnail={this.state.hotel.thumbnail} />
+        <ItemContent content={this.state.hotel}/>
       </div>
     )
   }
