@@ -40,7 +40,7 @@ export default class Item extends Component {
             // Avoid creating new closures in the render method- use methods like below
            onClick={this.handleOnClick}>
         <ItemThumbnail thumbnail={hotelInfo.thumbnail} />
-        <ItemContent content={hotelInfo}/>
+        <ItemContent hotelInfo={hotelInfo}/>
       </div>
     )
   }
