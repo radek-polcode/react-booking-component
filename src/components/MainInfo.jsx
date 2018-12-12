@@ -14,7 +14,7 @@ function MainInfo({ hotelInfo }) {
   return (
     <div className="row">
       <MainBlock hotelInfo={hotelInfo}/>
-      <ReviewsBlock />
+      <ReviewsBlock reviews={reviews}/>
     </div>
   )
 }
