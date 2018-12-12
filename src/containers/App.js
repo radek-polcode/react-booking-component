@@ -1,15 +1,15 @@
 import React, { Component } from 'react';
 import 'bootstrap/dist/css/bootstrap.css';
+
 import './App.css';
 import Item from '../components/Item'
 import json_data from './data.js';
 
 class App extends Component {
+  state = { hotels: json_data }
+  
   constructor(props) {
     super();
-    this.state = {
-      hotels: json_data
-    }
   }
 
   render() {
