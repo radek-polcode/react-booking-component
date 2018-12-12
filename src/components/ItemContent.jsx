@@ -31,7 +31,7 @@ export default class ItemContent extends Component {
     return(
       <div className="col-8 col-item-content">
         <MainInfo hotelInfo={hotelInfo}/>
-        <RoomExpectation />
+        <RoomExpectation expectation={hotelInfo.main_info.expectations_exceeded} />
         <RoomDetails />
       </div>
     )
