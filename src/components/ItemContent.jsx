@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
+
 import MainInfo from './MainInfo';
 import RoomExpectation from './RoomExpectation';
-import './ItemContent.css';
+import './styles/ItemContent.css';
 import RoomDetails from './RoomDetails';
 
 export default class ItemContent extends Component {

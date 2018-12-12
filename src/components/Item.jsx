@@ -1,5 +1,6 @@
 import React, { Component } from 'react'
-import './Item.css';
+
+import './styles/Item.css';
 import ItemContent from './ItemContent'
 import ItemThumbnail from './ItemThumbnail';
 

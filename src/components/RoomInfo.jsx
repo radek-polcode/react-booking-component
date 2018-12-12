@@ -1,5 +1,6 @@
 import React from 'react'
-import './RoomInfo.css'
+
+import './styles/RoomInfo.css'
 import { IconContext } from "react-icons";
 import { FaUser } from "react-icons/fa";
 

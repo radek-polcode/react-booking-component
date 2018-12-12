@@ -1,4 +1,5 @@
 import React from 'react';
+
 import RoomInfo from './RoomInfo';
 import RoomPrice from './RoomPrice';
 

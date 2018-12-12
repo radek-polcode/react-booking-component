@@ -1,5 +1,6 @@
 import React from 'react'
-import './ReviewsBlock.css';
+
+import './styles/ReviewsBlock.css';
 
 export const ReviewsBlock = () =>
   <div className="col-3 reviews">

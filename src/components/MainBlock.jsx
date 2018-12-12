@@ -1,5 +1,6 @@
 import React from 'react';
-import './MainBlock.css';
+
+import './styles/MainBlock.css';
 import { FaMapMarkerAlt } from 'react-icons/fa';
 import { IconContext } from "react-icons";
 import { FaDirections } from "react-icons/fa";

@@ -1,5 +1,6 @@
 import React from 'react'
-import './ItemThumbnail.css';
+
+import './styles/ItemThumbnail.css';
 
 export const ItemThumbnail = ({thumbnail}) =>
   <div className="col-4 col-item-thumbnail">

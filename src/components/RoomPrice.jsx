@@ -1,5 +1,6 @@
 import React from 'react';
-import './RoomPrice.css';
+
+import './styles/RoomPrice.css';
 import { IconContext } from "react-icons";
 import { FaAngleRight } from 'react-icons/fa'
 

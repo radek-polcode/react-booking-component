@@ -1,5 +1,6 @@
 import React from 'react'
-import './RoomExpectation.css'
+
+import './styles/RoomExpectation.css'
 import { IconContext } from "react-icons";
 import { FaLaugh } from "react-icons/fa";
 
