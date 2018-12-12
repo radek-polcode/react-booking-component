@@ -10,11 +10,10 @@ MainInfo.propTypes = {
 }
 
 function MainInfo({ hotelInfo }) {
-  const mainInfo = hotelInfo['main_info']
   const reviews = hotelInfo['reviews']
   return (
     <div className="row">
-      <MainBlock mainInfo={mainInfo}/>
+      <MainBlock hotelInfo={hotelInfo}/>
       <ReviewsBlock />
     </div>
   )
