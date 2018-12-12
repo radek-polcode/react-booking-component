@@ -6,14 +6,15 @@ import RoomInfo from './RoomInfo';
 import RoomPrice from './RoomPrice';
 
 RoomDetails.propTypes = {
-  roomDetails: PropTypes.object.isRequired
+  roomDetails: PropTypes.object.isRequired,
+  roomPrice: PropTypes.object.isRequired
 }
 
-function RoomDetails({ roomDetails }) {
+function RoomDetails({ roomDetails, roomPrice }) {
   return(
     <div className="row">
       <RoomInfo roomInfo={roomDetails} />
-      <RoomPrice />
+      <RoomPrice roomPrice={roomPrice} />
   </div>
   )
 }

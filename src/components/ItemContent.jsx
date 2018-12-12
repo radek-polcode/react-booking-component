@@ -32,7 +32,7 @@ export default class ItemContent extends Component {
       <div className="col-8 col-item-content">
         <MainInfo hotelInfo={hotelInfo}/>
         <RoomExpectation expectation={hotelInfo.main_info.expectations_exceeded} />
-        <RoomDetails roomDetails={hotelInfo.rooms} />
+        <RoomDetails roomDetails={hotelInfo.rooms} roomPrice={hotelInfo.price} />
       </div>
     )
   }

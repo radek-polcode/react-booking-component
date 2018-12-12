@@ -1,10 +1,10 @@
 import React from 'react'
 import PropTypes from 'prop-types';
+import { IconContext } from "react-icons";
+import { FaUser } from "react-icons/fa";
 
 // Separate local imports from dependencies
 import './styles/RoomInfo.css'
-import { IconContext } from "react-icons";
-import { FaUser } from "react-icons/fa";
 
 RoomInfo.propTypes = {
   roomInfo: PropTypes.object.isRequired
