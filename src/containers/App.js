@@ -25,7 +25,7 @@ class App extends Component {
       <div className="container">
         {Object.keys(this.state.hotels.data).map((key) =>{
           return (
-            <Item hotel={this.state.hotels.data[key]}/>
+            <Item hotelInfo={this.state.hotels.data[key]}/>
           )
         })};
       </div>
