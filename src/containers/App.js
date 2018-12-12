@@ -7,7 +7,15 @@ import json_data from './data.js';
 
 class App extends Component {
   state = { hotels: json_data }
-  
+
+  static propTypes ={
+    //currently no props
+  }
+
+  static defaultProps = {
+    //currently no props
+  }
+
   constructor(props) {
     super();
   }
