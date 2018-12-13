@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import PropTypes from 'prop-types';
 
 // Separate local imports from dependencies
-import MainInfo from './MainInfo';
+import ItemMainBlock from './ItemMainBlock';
 import RoomDetails from './RoomDetails';
 import './styles/ItemContent.css';
 
@@ -29,7 +29,7 @@ export default class ItemContent extends Component {
     const { hotelInfo } = this.props
     return(
       <div className="col-8 col-item-content">
-        <MainInfo hotelInfo={hotelInfo}/>
+        <ItemMainBlock hotelInfo={hotelInfo}/>
         <RoomDetails 
           roomInfo={hotelInfo.rooms}
           roomExpectation={hotelInfo.main_info.expectations_exceeded}

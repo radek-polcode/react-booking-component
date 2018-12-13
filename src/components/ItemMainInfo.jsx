@@ -9,11 +9,11 @@ import { FaDirections } from "react-icons/fa";
 
 // Declare propTypes here, before the component (taking advantage of JS function hoisting)
 // You want these to be as visible as possible
-MainBlock.propTypes = {
+ItemMainBlock.propTypes = {
   hotelInfo: PropTypes.object.isRequired
 }
 
-function MainBlock({ hotelInfo }) {
+function ItemMainBlock({ hotelInfo }) {
   const mainInfo = hotelInfo['main_info']
   return (
     <div className="col-9">
@@ -48,4 +48,4 @@ function MainBlock({ hotelInfo }) {
   )
 }
 
-  export default MainBlock;
+  export default ItemMainBlock;

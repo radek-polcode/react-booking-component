@@ -4,11 +4,11 @@ import PropTypes from 'prop-types';
 // Separate local imports from dependencies
 import './styles/ReviewsBlock.css';
 
-ReviewsBlock.propTypes = {
+ItemReviewsBlock.propTypes = {
   reviews: PropTypes.object.isRequired
 }
 
-function ReviewsBlock({ reviews }) {
+function ItemReviewsBlock({ reviews }) {
   return(
     <div className="col-3 reviews">
       <div className="review-score-content">
@@ -36,4 +36,4 @@ function ReviewsBlock({ reviews }) {
   )
 }
   
-export default ReviewsBlock;
+export default ItemReviewsBlock;
