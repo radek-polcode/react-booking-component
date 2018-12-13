@@ -2,9 +2,9 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 // Separate local imports from dependencies
-import './styles/Item.css';
-import ItemContent from './ItemContent'
-import ItemThumbnail from './ItemThumbnail';
+import './index.css';
+import Content from './Content'
+import Thumbnail from './Content/Main/Thumbnail';
 
 export default class Item extends Component {
   state = { 
@@ -39,8 +39,8 @@ export default class Item extends Component {
             // onChange={() => { this.setState({clicked: !this.state.clicked }) }}
             // Avoid creating new closures in the render method- use methods like below
            onClick={this.handleOnClick}>
-        <ItemThumbnail thumbnail={hotelInfo.thumbnail} />
-        <ItemContent hotelInfo={hotelInfo}/>
+        <Thumbnail thumbnail={hotelInfo.thumbnail} />
+        <Content hotelInfo={hotelInfo}/>
       </div>
     )
   }

@@ -4,13 +4,13 @@ import { IconContext } from "react-icons";
 import { FaAngleRight } from 'react-icons/fa'
 
 // Separate local imports from dependencies
-import './styles/RoomPrice.css';
+import './Price.css';
 
-RoomPrice.propTypes = {
+Price.propTypes = {
   roomPrice: PropTypes.object.isRequired
 }
 
-function RoomPrice({ roomPrice }) {
+function Price({ roomPrice }) {
   return(
     <div className="col-4 room-price-content">
       <p className="room-price-for-x-nights">Price for {roomPrice.number_of_nights} {roomPrice.currency} nights</p>
@@ -32,4 +32,4 @@ function RoomPrice({ roomPrice }) {
 } 
   
 
-export default RoomPrice;
+export default Price;

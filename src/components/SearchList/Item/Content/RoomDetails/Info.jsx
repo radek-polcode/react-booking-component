@@ -4,13 +4,13 @@ import { IconContext } from "react-icons";
 import { FaUser } from "react-icons/fa";
 
 // Separate local imports from dependencies
-import './styles/RoomInfo.css'
+import './Info.css'
 
-RoomInfo.propTypes = {
+Info.propTypes = {
   roomInfo: PropTypes.object.isRequired
 }
 
-function RoomInfo({ roomInfo }) {
+function Info({ roomInfo }) {
   return (
     <div className="col-8 room-info">
       <p className="room-name">
@@ -39,4 +39,4 @@ function RoomInfo({ roomInfo }) {
   )
 }
   
-export default RoomInfo;
+export default Info;

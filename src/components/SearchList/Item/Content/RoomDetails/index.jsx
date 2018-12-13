@@ -2,31 +2,32 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 // Separate local imports from dependencies\
-import RoomExpectation from './RoomExpectation';
-import RoomInfo from './RoomInfo';
-import RoomPrice from './RoomPrice';
+import Expectation from './Expectation';
+import Info from './Info';
+import Price from './Price';
 
-RoomDetails.propTypes = {
+Details.propTypes = {
   roomDetails: PropTypes.object.isRequired,
   roomExpectation: PropTypes.object.isRequired,
   roomPrice: PropTypes.object.isRequired
 }
 
-function RoomDetails(
+function Details(
   { 
     roomExpectation,
     roomInfo, 
     roomPrice
-  })
+  }
+)
 {
   return(
     <div className="row">
-      <RoomExpectation roomExpectation={roomExpectation} />
-      <RoomInfo roomInfo={roomInfo} />
-      <RoomPrice roomPrice={roomPrice} />
+      <Expectation roomExpectation={roomExpectation} />
+      <Info roomInfo={roomInfo} />
+      <Price roomPrice={roomPrice} />
     </div>
   )
 }
 
 
-export default RoomDetails;
+export default Details;

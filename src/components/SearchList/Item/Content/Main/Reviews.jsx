@@ -2,7 +2,7 @@ import React from 'react'
 import PropTypes from 'prop-types';
 
 // Separate local imports from dependencies
-import './styles/ReviewsBlock.css';
+import './Reviews.css';
 
 ItemReviewsBlock.propTypes = {
   reviews: PropTypes.object.isRequired

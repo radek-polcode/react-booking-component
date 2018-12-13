@@ -4,11 +4,11 @@ import { IconContext } from "react-icons";
 import { FaLaugh } from "react-icons/fa";
 
 // Declare propTypes as static properties as early as possible
-RoomExpectation.propTypes = {
+Expectations.propTypes = {
   roomExpectation: PropTypes.string.isRequired
 }
 
-function RoomExpectation({ roomExpectation }) {
+function Expectations({ roomExpectation }) {
   return(
     <div className="col-9">
       <p className="hotel-expectation">
@@ -26,4 +26,4 @@ function RoomExpectation({ roomExpectation }) {
   )
 }
   
-export default RoomExpectation;
+export default Expectations;

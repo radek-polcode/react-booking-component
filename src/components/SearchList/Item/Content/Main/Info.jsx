@@ -2,18 +2,18 @@ import React from 'react';
 import PropTypes from 'prop-types';
 
 // Separate local imports from dependencies
-import './styles/MainBlock.css';
+import './Info.css';
 import { FaMapMarkerAlt } from 'react-icons/fa';
 import { IconContext } from "react-icons";
 import { FaDirections } from "react-icons/fa";
 
 // Declare propTypes here, before the component (taking advantage of JS function hoisting)
 // You want these to be as visible as possible
-ItemMainBlock.propTypes = {
+Info.propTypes = {
   hotelInfo: PropTypes.object.isRequired
 }
 
-function ItemMainBlock({ hotelInfo }) {
+function Info({ hotelInfo }) {
   const mainInfo = hotelInfo['main_info']
   return (
     <div className="col-9">
@@ -48,4 +48,4 @@ function ItemMainBlock({ hotelInfo }) {
   )
 }
 
-  export default ItemMainBlock;
+export default Info;
