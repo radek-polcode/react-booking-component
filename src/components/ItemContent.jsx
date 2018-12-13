@@ -4,7 +4,6 @@ import PropTypes from 'prop-types';
 // Separate local imports from dependencies
 import MainInfo from './MainInfo';
 import RoomDetails from './RoomDetails';
-import RoomExpectation from './RoomExpectation';
 import './styles/ItemContent.css';
 
 export default class ItemContent extends Component {
@@ -31,8 +30,11 @@ export default class ItemContent extends Component {
     return(
       <div className="col-8 col-item-content">
         <MainInfo hotelInfo={hotelInfo}/>
-        <RoomExpectation expectation={hotelInfo.main_info.expectations_exceeded} />
-        <RoomDetails roomDetails={hotelInfo.rooms} roomPrice={hotelInfo.price} />
+        <RoomDetails 
+          roomInfo={hotelInfo.rooms}
+          roomExpectation={hotelInfo.main_info.expectations_exceeded}
+          roomPrice={hotelInfo.price} 
+        />
       </div>
     )
   }
